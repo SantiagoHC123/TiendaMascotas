@@ -21,7 +21,7 @@ return (
  <p> {breed}</p>
 {isfeatured ? <p> Pet of the month! </p>: null}
 <p>Like: {like}</p>
-      <button onClick={likeClick}>Like</button>
+      <button onClick={likeClick}>Like Pet</button>
 
 </div>
 )
